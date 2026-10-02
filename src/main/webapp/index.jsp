@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1><font color='green'> Welcome to Devops Learning  <font></h1>
+<h1><font color='blue'> Welcome to Devops Learning  <font></h1>
 
 <h1> Name: Praveen Reddy </h1>
 <h1> Age: 35 Years </h1>
