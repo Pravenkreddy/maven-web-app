@@ -2,12 +2,12 @@
 <body>
 <h1><font color='green'> Welcome to Devops Learning  <font></h1>
 
-<h2> Name: Praveen Reddy </h2>
-<h3> Age: 35 Years </h3>
-<h4> Eduation: B.Tech(CSE) </h4>
-<h5> Call Us : +1 123456789 </h5>
+<h1> Name: Praveen Reddy </h1>
+<h1> Age: 35 Years </h1>
+<h1> Eduation: B.Tech(CSE) </h1>
+<h1> Call Us : +1 123456789 </h1>
   
-<h6> Dubbacherla, Maheshwaram, RR Dist </h6>
+<h1> Dubbacherla, Maheshwaram, RR Dist </h1>
 
 
 </body>
