@@ -1,15 +1,23 @@
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Devops Learning</title>
+</head>
 <body>
-<h1><font color='blue'> Welcome to Devops Learning  <font></h1>
 
-<h1> Name: K Praveen Reddy </h1>
-<h1> Age: 35 Years </h1>
-<h1> Eduation: B.Tech(CSE) </h1>
-<h1> Call Us : +0 123456789 </h1>
-<h1> Hello <h1>
-  
-<h1> Dubbacherla, Maheshwaram, RR Dist </h1>
+    <!-- Welcome Header with Blue Color -->
+    <h1 style="color: blue;">Welcome to Devops Learning</h1>
 
+    <!-- Profile Details -->
+    <h2>Name: K Praveen Reddy</h2>
+    <h2>Age: 35 Years</h2>
+    <h2>Education: B.Tech (CSE)</h2>
+    <h2>Call Us: +0 123456789</h2>
+    
+    <h2>Hello</h2>
+    
+    <!-- Address -->
+    <p><strong>Address:</strong> Dubbacherla, Maheshwaram, RR District</p>
 
 </body>
 </html>
