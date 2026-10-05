@@ -2,22 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Devops Learning</title>
+    <title>DevOps Pipeline Status</title>
 </head>
 <body>
 
-    <!-- Welcome Header with Blue Color -->
-    <h1 style="color: blue;">Welcome to Devops Learning</h1>
+    <!-- Main Header with Green Color to indicate success -->
+    <h1 style="color: green;">DevOps Automation Dashboard</h1>
 
-    <!-- Profile Details -->
-    <h2>Name: Praveen Reddy</h2>
-    <h2>Age: 35 Years</h2>
-    <h2>Education: B.Tech (CSE)</h2>
-    <h2>Call Us: +0 123456789</h2>
+    <!-- Project Information -->
+    <h2>Project Name: E-Commerce Web App</h2>
+    <h2>Environment: Production (AWS EC2)</h2>
+    <h2>Build Status: <span style="color: green;">SUCCESS</span></h2>
+    <h2>Last Deployment: Just Now</h2>
     
-    
-    <!-- Address -->
-    <p><strong>Address:</strong> Dubbacherla, Maheshwaram, RR District</p>
+    <hr> <!-- This adds a thin horizontal line across the page -->
+
+    <!-- Deployment Tools List -->
+    <h3>Integrated Tools Stack:</h3>
+    <ul>
+        <li><strong>Source Code:</strong> GitHub</li>
+        <li><strong>CI/CD Engine:</strong> Jenkins LTS</li>
+        <li><strong>Build Tool:</strong> Apache Maven</li>
+        <li><strong>Container Environment:</strong> Docker Engine</li>
+    </ul>
+
+    <!-- Quick Support Link -->
+    <p>Need infrastructure help? <strong>Email:</strong> support@devopslearning.com</p>
 
 </body>
 </html>
