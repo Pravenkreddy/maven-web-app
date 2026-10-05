@@ -20,12 +20,12 @@
         
         <p>
             <label for="username"><strong>Username:</strong></label><br>
-            <input type="text" id="username" name="username" placeholder="e.g., john_doe" required>
+            <input type="text" id="username" name="username" placeholder="e.g., praveen" required>
         </p>
         
         <p>
             <label for="email"><strong>Email Address:</strong></label><br>
-            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            <input type="email" id="email" name="email" placeholder="praveen@example.com" required>
         </p>
         
         <p>
