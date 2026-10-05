@@ -2,47 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Apex Tech Solutions</title>
+    <title>Member Registration</title>
 </head>
-<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; line-height: 1.6;">
+<body>
 
-    <!-- Website Header & Navigation -->
-    <header style="background-color: #34495E; color: white; padding: 15px; text-align: center;">
-        <h1>Apex Tech Solutions</h1>
-        <nav>
-            <a href="#about" style="color: white; margin: 0 10px; text-decoration: none;"><strong>About Us</strong></a> | 
-            <a href="#services" style="color: white; margin: 0 10px; text-decoration: none;"><strong>Services</strong></a> | 
-            <a href="#contact" style="color: white; margin: 0 10px; text-decoration: none;"><strong>Contact</strong></a>
-        </nav>
-    </header>
+    <!-- Main Heading with Blue Style -->
+    <h1 style="color: #2C3E50; font-family: sans-serif;">Create Your Account</h1>
+    <p style="color: #7F8C8D;">Join our community today! Please fill out the form below.</p>
 
-    <!-- Main About Section -->
-    <section id="about" style="padding: 20px 0;">
-        <h2>Innovative Cloud Architecture</h2>
-        <p>We build scalable, robust systems designed to take your modern business operations into the next decade. Our automated solutions optimize workflows, protect data integrity, and guarantee 99.9% application uptime.</p>
-    </section>
+    <hr> <!-- Section Separator -->
 
-    <hr>
+    <!-- Registration Form -->
+    <form action="#" method="POST" style="font-family: sans-serif; line-height: 1.8;">
+        
+        <!-- Account Details -->
+        <h3>Account Information</h3>
+        
+        <p>
+            <label for="username"><strong>Username:</strong></label><br>
+            <input type="text" id="username" name="username" placeholder="e.g., john_doe" required>
+        </p>
+        
+        <p>
+            <label for="email"><strong>Email Address:</strong></label><br>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+        </p>
+        
+        <p>
+            <label for="password"><strong>Password:</strong></label><br>
+            <input type="password" id="password" name="password" placeholder="Min. 8 characters" required>
+        </p>
 
-    <!-- core Services Section -->
-    <section id="services" style="padding: 20px 0;">
-        <h2>Our Core Capabilities:</h2>
-        <ul>
-            <li><strong>Cloud Migration:</strong> Seamless execution from on-premise hardware to secure multi-cloud environments.</li>
-            <li><strong>Managed DevOps:</strong> Full pipeline automation, continuous testing, and real-time monitoring setups.</li>
-            <li><strong>Cybersecurity Audits:</strong> End-to-end vulnerability analysis and identity protection engineering.</li>
-        </ul>
-    </section>
+        <!-- Profile Details -->
+        <h3>Profile Details</h3>
+        
+        <p>
+            <label><strong>Subscription Tier:</strong></label><br>
+            <input type="radio" id="free" name="tier" value="free" checked>
+            <label for="free">Free Tier</label><br>
+            <input type="radio" id="premium" name="tier" value="premium">
+            <label for="premium">Premium Pass</label>
+        </p>
+        
+        <p>
+            <label for="country"><strong>Country:</strong></label><br>
+            <select id="country" name="country">
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="in">India</option>
+                <option value="ca">Canada</option>
+            </select>
+        </p>
+        
+        <p>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the <strong>Terms of Service</strong></label>
+        </p>
 
-    <hr>
-
-    <!-- Contact & Footer Section -->
-    <footer id="contact" style="background-color: #F2F4F4; padding: 20px; text-align: center; margin-top: 20px;">
-        <h3>Ready to Scale Your Systems?</h3>
-        <p><strong>Office Hours:</strong> Monday – Friday, 9:00 AM – 6:00 PM EST</p>
-        <p><strong>Direct Hotline:</strong> +1 (555) 019-2834</p>
-        <p style="font-size: 12px; color: #7F8C8D;">&copy; 2026 Apex Tech Solutions. All rights reserved.</p>
-    </footer>
+        <!-- Submit Button -->
+        <p>
+            <button type="submit" style="background-color: #27AE60; color: white; padding: 10px 20px; border: none; font-size: 16px; cursor: pointer;">
+                Register Now
+            </button>
+        </p>
+        
+    </form>
 
 </body>
 </html>
