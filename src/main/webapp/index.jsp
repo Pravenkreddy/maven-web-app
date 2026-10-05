@@ -2,32 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>DevOps Pipeline Status</title>
+    <title>Apex Tech Solutions</title>
 </head>
-<body>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; line-height: 1.6;">
 
-    <!-- Main Header with Green Color to indicate success -->
-    <h1 style="color: green;">DevOps Automation Dashboard</h1>
+    <!-- Website Header & Navigation -->
+    <header style="background-color: #34495E; color: white; padding: 15px; text-align: center;">
+        <h1>Apex Tech Solutions</h1>
+        <nav>
+            <a href="#about" style="color: white; margin: 0 10px; text-decoration: none;"><strong>About Us</strong></a> | 
+            <a href="#services" style="color: white; margin: 0 10px; text-decoration: none;"><strong>Services</strong></a> | 
+            <a href="#contact" style="color: white; margin: 0 10px; text-decoration: none;"><strong>Contact</strong></a>
+        </nav>
+    </header>
 
-    <!-- Project Information -->
-    <h2>Project Name: E-Commerce Web App</h2>
-    <h2>Environment: Production (AWS EC2)</h2>
-    <h2>Build Status: <span style="color: green;">SUCCESS</span></h2>
-    <h2>Last Deployment: Just Now</h2>
-    
-    <hr> <!-- This adds a thin horizontal line across the page -->
+    <!-- Main About Section -->
+    <section id="about" style="padding: 20px 0;">
+        <h2>Innovative Cloud Architecture</h2>
+        <p>We build scalable, robust systems designed to take your modern business operations into the next decade. Our automated solutions optimize workflows, protect data integrity, and guarantee 99.9% application uptime.</p>
+    </section>
 
-    <!-- Deployment Tools List -->
-    <h3>Integrated Tools Stack:</h3>
-    <ul>
-        <li><strong>Source Code:</strong> GitHub</li>
-        <li><strong>CI/CD Engine:</strong> Jenkins LTS</li>
-        <li><strong>Build Tool:</strong> Apache Maven</li>
-        <li><strong>Container Environment:</strong> Docker Engine</li>
-    </ul>
+    <hr>
 
-    <!-- Quick Support Link -->
-    <p>Need infrastructure help? <strong>Email:</strong> support@devopslearning.com</p>
+    <!-- core Services Section -->
+    <section id="services" style="padding: 20px 0;">
+        <h2>Our Core Capabilities:</h2>
+        <ul>
+            <li><strong>Cloud Migration:</strong> Seamless execution from on-premise hardware to secure multi-cloud environments.</li>
+            <li><strong>Managed DevOps:</strong> Full pipeline automation, continuous testing, and real-time monitoring setups.</li>
+            <li><strong>Cybersecurity Audits:</strong> End-to-end vulnerability analysis and identity protection engineering.</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Contact & Footer Section -->
+    <footer id="contact" style="background-color: #F2F4F4; padding: 20px; text-align: center; margin-top: 20px;">
+        <h3>Ready to Scale Your Systems?</h3>
+        <p><strong>Office Hours:</strong> Monday – Friday, 9:00 AM – 6:00 PM EST</p>
+        <p><strong>Direct Hotline:</strong> +1 (555) 019-2834</p>
+        <p style="font-size: 12px; color: #7F8C8D;">&copy; 2026 Apex Tech Solutions. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
