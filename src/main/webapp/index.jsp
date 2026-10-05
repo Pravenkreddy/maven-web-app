@@ -10,7 +10,7 @@
     <h1 style="color: blue;">Welcome to Devops Learning</h1>
 
     <!-- Profile Details -->
-    <h2>Name: K Praveen Reddy</h2>
+    <h2>Name: Praveen Reddy</h2>
     <h2>Age: 35 Years</h2>
     <h2>Education: B.Tech (CSE)</h2>
     <h2>Call Us: +0 123456789</h2>
